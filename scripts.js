@@ -17,9 +17,8 @@ console.log('3) URL:', window.location.href);
 
 
 // 4. Imprime por consola el dominio de la página
-//    OJO: document.domain está DEPRECATED (tachado en el editor): relajaba la
-//    same-origin policy y los navegadores ya no lo usan. Alternativa moderna:
-//    location.hostname (mismo resultado, sin avisos).
+//    OJO: document.domain está DEPRECATED asi que le pedi a ChatGTP que me diera otra opcion
+// 			y me dijo que usara location.hostname, dejo el original como texto por si acaso.
 
 console.log('4) Dominio:', location.hostname);
 // console.log('4) Dominio (deprecated):', document.domain) el original lo tenía así, pero da warning en la consola y no es recomendable usarlo segun ChatGPT;
